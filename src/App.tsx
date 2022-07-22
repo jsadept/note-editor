@@ -42,7 +42,7 @@ const App: FC<AppInterface> = (props) => {
 
                 <Layout style={{height: 'calc(100vh - 64px)'}}>
 
-                    <Layout.Sider width={250} className='sidebar'>
+                    <Layout.Sider width={240} className='sidebar'>
                         <Sidebar {...props}/>
                     </Layout.Sider>
 
