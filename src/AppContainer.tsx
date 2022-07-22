@@ -20,10 +20,13 @@ const AppContainer: FC = () => {
 
 
     const [isLoading, setIsLoading] = useState<boolean>(false);
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [isCreating, setIsCreating] = useState<boolean>(false);
     const [isEditing, setIsEditing] = useState<boolean>(false);
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [isSaving, setIsSaving] = useState<boolean>(false);
     const [isSearching, setIsSearching] = useState<boolean>(false);
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [isRemoving, setIsRemoving] = useState<boolean>(false);
 
 
@@ -54,6 +57,7 @@ const AppContainer: FC = () => {
             setIsLoading(false);
             return data;
         }).then((data) => setNotes([...data]))
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
 

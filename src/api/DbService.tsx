@@ -42,7 +42,7 @@ const DbService: FC<DbServiceProps> = ({children}) => {
         console.log(shortDescription)
         try {
             const currentDate = new Date();
-            const currentNote = await db.notes.update(id || 0, {
+            await db.notes.update(id || 0, {
                 title,
                 content: content,
                 lastTimeEdit: currentDate,
