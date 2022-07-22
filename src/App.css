@@ -1,0 +1,94 @@
+@import '~antd/dist/antd.css';
+
+
+.navbar-icon{
+    margin-right: 15px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    box-shadow: 0px 1px 11px darkgrey;
+}
+
+.navbar-search{
+    border-radius: 4px;
+    box-shadow: 0px 1px 11px darkgrey;
+}
+
+.sidebar{
+    background: transparent;
+    border-right: 1px solid #E0E0DF;
+    padding-left: 30px;
+}
+
+.list-item{
+    padding: 10px 40px 10px 0px;
+    border-bottom: 1px solid #E0E0DF!important;
+    cursor: pointer;
+    overflow: hidden;
+    color: black;
+
+}
+
+.list-item:hover{
+    background-color: #E0E0DF;
+}
+
+.ant-list-item-meta-description > div{
+    display: flex;
+}
+.ant-list-item-meta-description > div > div{
+    margin-right: 10px;
+    width: 60px;
+}
+.ant-list-item-meta-description > div > div + div{
+    color: #727171;
+
+}
+
+.ant-list-item-meta-title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#simplemde-editor-1-wrapper,
+.EasyMDEContainer,
+.EasyMDEContainer .CodeMirror {
+    height: 96%!important;
+    border-top: 0!important;
+}
+
+
+.ant-list-items{
+    height: calc(100vh - 65px);
+
+    overflow: auto;
+}
+
+
+.list-item_current{
+    background-color: #E0E0DF;
+    outline: 3px solid rgb(136, 136, 136);
+
+}
+
+.input-title{
+    font-size: 36px;
+    border-bottom: 0;
+}
+
+.input-title:focus,
+.input-title:hover {
+    outline: none;
+    box-shadow: none;
+    border-color: #d9d9d9;;
+}
+
+
+
+.current-note__title{
+    font-size: 32px;
+}
+
+main{
+    padding: 40px;
+    font-size: 22px;
+}
