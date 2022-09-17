@@ -1,4 +1,4 @@
-Note Editor (Copy IOS)
+Note Editor
 ============
 [![GitHub issues](https://img.shields.io/github/issues/jsadept/note-editor)](https://github.com/jsadept/note-editor/issues)
 [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/jsadept/note-editor)
